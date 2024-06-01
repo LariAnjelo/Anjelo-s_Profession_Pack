@@ -1,0 +1,640 @@
+[
+  {
+    "type": "profession",
+    "id": "historian",
+    "name": "Historian",
+    "description": "As a historian, you spent your days buried in ancient texts and archives, uncovering the secrets of the past.  While your knowledge of historical events and cultures might not seem immediately useful in the chaos of the cataclysm, your skills in research, analysis, and survival strategies from bygone eras give you an unique edge.  Equipped with a keen intellect and a deep understanding of how humans have endured through history, you feel ready to face these Dark Days Ahead.",
+    "points": 1,
+    "skills": [
+      { "level": 2, "name": "speech" },
+      { "level": 1, "name": "archery" },
+      { "level": 1, "name": "survival" },
+      { "level": 1, "name": "computer" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "dress_shirt" },
+          { "item": "tie_clipon" },
+          { "item": "wristwatch" },
+          { "item": "mbag" },
+          { "item": "pockknife" },
+          { "item": "history_book" },
+          { "item": "pen", "ammo-item": "black_pen_ink", "charges": 100, "container-item": "notebook_leather" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "jacket_leather" },
+          { "item": "leather_belt" },
+          { "item": "boxer_shorts" },
+          { "item": "pants", "variant": "pants_black" },
+          { "item": "socks" },
+          { "item": "dress_shoes" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "hairpin" },
+          { "item": "blazer" },
+          { "item": "bra" },
+          { "item": "panties" },
+          { "item": "skirt", "variant": "skirt_black" },
+          { "item": "stockings", "variant": "stockings_black" },
+          { "item": "heels", "variant": "heels_wedge" }
+        ]
+      }
+    },
+    "age_lower": 20
+  },
+  {
+    "type": "profession",
+    "id": "librarian",
+    "name": "Librarian",
+    "description": "Before the Cataclysm, you spent your days surrounded by books, knowledge, and the quiet hum of the library.  As a librarian, you were adept (or at least paid to) in organizing information and books, conducting research with, to and for patrons, and delving into the depths of literature.  While others sought excitement in the outside world, you found solace and purpose within the walls of academia.  Now, as the Cataclysm engulfs the world, you question yourself if all that time inside the library will be a hinder to your survival.",
+    "points": 1,
+    "traits": [ "LOVES_BOOKS" ],
+    "skills": [
+      { "level": 1, "name": "speech" },
+      { "level": 1, "name": "computer" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "dress_shirt" },
+          { "item": "sweater" },
+          { "item": "wristwatch" },
+          { "item": "mbag" },
+          { "item": "socks" },
+          { "item": "lowtops" },
+          { "item": "library_card", "container-item": "wallet" },
+          { "item": "novel_drama" },
+          { "item": "novel_crime" },
+          { "item": "manual_survival" },
+          { "item": "pen", "ammo-item": "red_pen_ink", "charges": 100 },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "leather_belt" },
+          { "item": "briefs" },
+          { "item": "pants", "variant": "pants_black" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "hairpin" },
+          { "item": "bra" },
+          { "item": "panties" },
+          { "item": "skirt", "variant": "skirt_black" }
+        ]
+      }
+    },
+    "age_lower": 20
+  },
+  {
+    "type": "profession",
+    "id": "c_eater",
+    "name": "Competitive Eater",
+    "description": "Before the Cataclysm, you considered yourself to be a professional competitive eater, not as a hobby, neither a background.  You made a name for yourself by conquering food challenges and devouring massive quantities of food in record time.  Whether it was hot dogs, burgers, or spicy wings, you never backed down from a gastronomic challenge.  Now, as the world faces a true apocalypse, your insatiable appetite may be a burden.  In a world where food is scarce and survival is a constant battle, your ability to eat large quantities of food with gusto could mean the difference between satisfaction and starvation.",
+    "points": 1,
+    "traits": [ "GOURMAND" ],
+    "skills": [
+      { "level": 2, "name": "cooking" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "tshirt", "variant": "tshirtburg" },
+          { "item": "jeans" },
+          { "item": "wristwatch" },
+          { "item": "fanny" },
+          { "item": "socks" },
+          { "item": "sneakers" },
+          { "item": "napkin" },
+          { "item": "plastic_shopping_bag" },
+          { "item": "cheeseburger", "container-item": "wrapper" },
+          { "item": "cheeseburger", "container-item": "wrapper" },
+          { "item": "cheeseburger", "container-item": "wrapper" },
+          { "item": "hotdogs_cooked", "container-item": "wrapper" },
+          { "item": "hotdogs_cooked", "container-item": "wrapper" },
+          { "item": "hotdogs_cooked", "container-item": "wrapper" },
+          { "item": "cola", "container-item": "can_drink" },
+          { "item": "cola", "container-item": "can_drink" },
+          { "item": "cola", "container-item": "can_drink" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "boxer_briefs" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "bra" },
+          { "item": "boy_shorts" }
+        ]
+      }
+    },
+    "age_lower": 17      
+  },
+  {
+    "type": "profession",
+    "id": "stocker",
+    "name": "Stocker",
+    "description": "While you are used to Black Friday chaos, stocking shelves and managing inventory like it was just another normal day, this is a different situation.  Now, Black Friday is everyday, and YOU are the most sought food item.  Will all that time of back pain and stocking shelves aid you into staying alive?  At least you where able to grab some stuff for yourself during the initial chaos.",
+    "points": 1,
+    "traits": [ "PACKMULE" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "polo_shirt", "variant": "s_polo" },
+          { "item": "apron_cotton", "variant": "red_apron_cotton" },
+          { "item": "wristwatch" },
+          { "item": "pants_cargo" },
+          { "item": "socks" },
+          { "item": "boots" },
+          { "item": "boxcutter" },
+          { "item": "duct_tape", "container-item": "cardboard_roll" },
+          { "item": "box_medium", "custom-flags": [ "auto_wield" ] },
+          { "item": "can_beans", "container-item": "can_medium" },
+          { "item": "can_beans", "container-item": "can_medium" },
+          { "item": "can_corn", "container-item": "can_medium" },
+          { "item": "can_corn", "container-item": "can_medium" },
+          { "item": "can_tomato", "container-item": "can_medium" },
+          { "item": "can_tomato", "container-item": "can_medium" },
+          { "item": "can_pineapple", "container-item": "can_medium" },
+          { "item": "can_pineapple", "container-item": "can_medium" },
+          { "item": "water_mineral", "container-item": "bottle_plastic" },
+          { "item": "water_mineral", "container-item": "bottle_plastic" },
+          { "group": "charged_matches" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "boxer_shorts" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "hairpin" },
+          { "item": "bra" },
+          { "item": "panties" }
+        ]
+      }
+    },
+    "age_lower": 16
+  },
+  {
+    "type": "profession",
+    "id": "cashier",
+    "name": "Cashier",
+    "description": "Your days before all this were spent behind a register, quickly ringing up items and dealing with grumpy customers.  It was a job, enough to pay the bills, and now that the world turned grey, you'll have to do what you can with your mundane skills (and all that change) to see the other day.",
+    "points": 1,
+    "traits": [ "QUICK" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "polo_shirt", "variant": "s_polo" },
+          { "item": "jacket_light" },
+          { "item": "wristwatch" },
+          { "item": "plastic_shopping_bag" },
+          { "item": "jeans" },
+          { "item": "socks" },
+          { "item": "lowtops" },
+          { "item": "money_one" },
+          { "item": "money_one" },
+          { "item": "money_one" },
+          { "item": "money_five" },
+          { "item": "money_five" },
+          { "item": "money_five" },
+          { "item": "money_ten" },
+          { "item": "money_ten" },
+          { "item": "money_ten" },
+          { "item": "money_twenty" },
+          { "item": "money_twenty" },
+          { "item": "money_twenty" },
+          { "item": "coin_half_dollar" },
+          { "item": "coin_half_dollar" },
+          { "item": "coin_half_dollar" },
+          { "item": "coin_half_dollar" },
+          { "item": "coin_half_dollar" },
+          { "item": "coin_penny" },
+          { "item": "coin_penny" },
+          { "item": "coin_penny" },
+          { "item": "coin_penny" },
+          { "item": "coin_penny" },
+          { "item": "coin_dime" },
+          { "item": "coin_dime" },
+          { "item": "coin_dime" },
+          { "item": "coin_dime" },
+          { "item": "coin_dime" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "boxer_shorts" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "hairpin" },
+          { "item": "bra" },
+          { "item": "panties" }
+        ]
+      }
+    },
+    "age_lower": 16
+  },
+  {
+    "type": "profession",
+    "id": "manager",
+    "name": "Store Manager",
+    "description": "You used to be the one holding the keys, balancing inventory, scheduling shifts, setting up and down the store's alarm system, and dealing with the occasional disgruntled employee or the unhappy customer.  When everything fell apart, you lost everything: Family, employees, your store.  Can you navigate the Cataclysm with the same determination that once kept your store running smoothly?",
+    "points": 1,
+    "skills": [
+      { "level": 2, "name": "speech" },
+      { "level": 1, "name": "computer" },
+      { "level": 1, "name": "traps" }
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "polo_shirt", "variant": "s_polo" },
+          { "item": "wristwatch" },
+          { "item": "fanny" },
+          { "item": "pants", "variant": "pants_black" },
+          { "item": "socks" },
+          { "item": "dress_shoes" },
+          { "item": "old_key" },
+          { "item": "gum", "variant": "gum_peppermint" },
+          { "item": "gum", "variant": "gum_peppermint" },
+          { "item": "gum", "variant": "gum_peppermint" },
+          { "item": "gum", "variant": "gum_peppermint" },
+          { "item": "gum", "variant": "gum_peppermint" },
+          { "item": "pen", "ammo-item": "blue_pen_ink", "charges": 100 },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "boxer_briefs" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "hairpin" },
+          { "item": "bra" },
+          { "item": "panties" }
+        ]
+      }
+    },
+    "age_lower": 21
+  },
+  {
+    "type": "profession",
+    "id": "lobster",
+    "name": { "male": "Lobsterman", "female": "Lobsterwoman" },
+    "description": "Out on the briny deep, you've spent your days haulin' traps, ridin' the swells, and huntin' them elusive crustaceans.  A line of work not suitable for the faint of heart.  At least the lobsters didn't got too big to seek vengeance - Yet.",
+    "points": 2,
+    "skills": [ { "level": 2, "name": "survival" }, { "level": 2, "name": "swimming" }, { "level": 1, "name": "traps" } ],
+    "proficiencies": [ "prof_fibers", "prof_knives_familiar" ],
+    "pets": [ { "name": "mon_fish_lobster", "amount": 1 } ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "hat_cotton" },
+          { "item": "jeans" },
+          { "item": "tshirt", "variant": "generic_tshirt" },
+          { "item": "gloves_rubber" },
+          { "item": "socks" },
+          { "item": "fishing_waders" },
+          { "item": "wristwatch" },
+          { "item": "backpack" },
+          { "item": "pliers" },
+          { "item": "lobster_cage", "custom-flags": [ "auto_wield" ] },
+          { "item": "lobster_smoked", "container-item": "wrapper" },
+          { "group": "charged_smart_phone" },
+          { "item": "fish_trap", "ammo-item": "fish_bait", "charges": 5 },
+          { "item": "fish_bait", "charges": 15 },
+          { "item": "lighter", "charges": 100 },
+          { "item": "knife_hunting", "container-item": "sheath" },
+          { "item": "net" }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "veterinarian",
+    "name": "Veterinarian",
+    "description": "With a stethoscope draped around your neck and a gentle touch, your pre-Cataclysm days where a harmonious blend of vet skills and heartfelt empathy.  Whether tending to the beloved family pets of suburban neighborhoods or trekking through the rugged terrain of farmlands to care for livestock, each moment presented you an unique opportunity to make a meaningful impact.  Animal life nowadays may be more feral and dangerous than before, but you believe your medical skills so far are more than enough to get you though all this.",
+    "points": 2,
+    "skills": [ { "level": 4, "name": "firstaid" } ],
+    "proficiencies": [
+      "prof_wound_care",
+      "prof_wound_care_expert",
+      "prof_intro_biology",
+      "prof_physiology",
+      "prof_burn_care"
+    ],
+    "traits": [ "ANIMALEMPATH" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "dress_shirt" },
+          { "item": "gloves_medical" },
+          { "item": "socks" },
+          { "item": "dress_shoes" },
+          { "item": "coat_lab" },
+          { "item": "badge_vet" },
+          { "item": "petpack" },
+          { "item": "glasses_safety" },
+          { "item": "wristwatch" },
+          { "item": "bandages", "count": 3 },
+          { "item": "medical_tape" },
+          { "item": "antiparasitic" },
+          { "item": "stethoscope" },
+          { "item": "pants", "variant": "pants_blue" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "killer",
+    "name": "Serial Killer",
+    "description": "In the shadows, you lurked, just like a predator stalking prey with cold calculation and merciless intent.  Each victim was carefully chosen, each death meticulously planned to satisfy your insatiable thirst for blood.  With every life extinguished, a perverse sense of power surged through your veins, fueling the twisted desires that drove you to commit unspeakable acts of violence.  The cops where already about to get you, but when your victims started to rise back to life, hungry for vengeance, you where more than happy to put them down once again, and when the world fell apart, you noticed that there aren't laws stopping you now.",
+    "points": 1,
+    "skills": [ 
+      { "level": 4, "name": "speech" }, 
+      { "level": 2, "name": "cutting" }, 
+      { "level": 2, "name": "stabbing" }, 
+      { "level": 1, "name": "traps" } 
+    ],
+    "proficiencies": [ "prof_knives_familiar", "prof_unarmed_familiar" ],
+    "traits": [ "KILLER" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "longshirt" }, 
+          { "item": "gloves_medical" }, 
+          { "item": "pants", "variant": "pants_black" },
+          { "item": "socks" },
+          { "item": "sneakers" }, 
+          { "item": "knife_steak" }, 
+          { "item": "wallet_photo" }, 
+          { "item": "coin_dime" },
+          { "item": "cotton_patchwork", "custom-flags": [ "FILTHY" ] }, 
+          { "item": "mask_skull", "variant": "noface_plastic_mask", "container-item": "duffelbag" }, 
+          { "item": "corpse_generic_human", "custom-flags": [ "auto_wield" ] }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    }
+  },
+  {
+  "type": "profession",
+  "id": "youtuber",
+  "name": "YouTuber",
+  "description": "Before the Cataclysm, you used to be a popular content creator who was known for your humor and gameplay videos.  Of course, you where not an international YouTube Star, but you did had a growing community of viewers and even an official YouTube Play Button plate.  You've played a ton of different zombie apocalypse and survival horror games, but this is something real.",
+  "points": 1,
+  "skills": [
+    { "level": 3, "name": "computer" },
+    { "level": 2, "name": "speech" },
+    { "level": 1, "name": "survival" }
+  ],
+      "items": {
+      "both": {
+        "entries": [
+          { "item": "tshirt", "variant": "tshirt_youtube" },
+          { "item": "hoodie", "variant": "hoodie_black" },
+          { "item": "wristwatch" },
+          { "item": "pants_cargo" },
+          { "item": "socks" },
+          { "item": "backpack" },
+          { "item": "sneakers" },
+          { "item": "yt_silver" },
+          { "group": "charged_smart_phone" },
+          { "group": "charged_laptop" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "light_plus_battery_cell", "charges": 150, "container-item": "headphones_neck"  },
+          { "item": "boxer_shorts" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "light_plus_battery_cell", "charges": 150, "container-item": "headphonescat_neck"  },
+          { "item": "boy_shorts" }
+        ]
+      }
+    },
+    "age_lower": 16
+  },
+  {
+  "type": "profession",
+  "id": "twitch_s",
+  "name": "Twitch Streamer",
+  "description": "Before the cataclysm, you were a popular Twitch streamer, entertaining and interacting with a live audience through video games and live chats.  Nothing worldwide, but you did had a growing community of viewers.  Ever since the Fall of Internet, you were unable to interact with your viewers again, leaving you all alone in this harsh reality.",
+  "points": 1,
+  "skills": [
+    { "level": 3, "name": "computer" },
+    { "level": 3, "name": "speech" }
+  ],
+      "items": {
+      "both": {
+        "entries": [
+          { "item": "tshirt", "variant": "tshirt_twitch" },
+          { "item": "jacket_light" },
+          { "item": "wristwatch" },
+          { "item": "pants_cargo" },
+          { "item": "socks" },
+          { "item": "backpack" },
+          { "item": "energy_drink", "container-item": "can_drink" },
+          { "item": "sneakers" },
+          { "item": "usb_drive" },
+          { "group": "charged_smart_phone" },
+          { "group": "charged_laptop" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "light_plus_battery_cell", "charges": 150, "container-item": "headphones_neck"  },
+          { "item": "boxer_shorts" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "light_plus_battery_cell", "charges": 150, "container-item": "headphonescat_neck"  },
+          { "item": "boy_shorts" }
+        ]
+      }
+    },
+    "age_lower": 16
+  },
+  {
+  "type": "profession",
+  "id": "influencer",
+  "name": "Social Media Influencer",
+  "description": "Before the Cataclysm, you were a social media influencer, captivating hundreds, if not millions with your charisma and lifestyle content.  Your days were filled with posting photos, streaming live videos, and engaging with a vast audience.  Now that the likes and comments have stopped, you are nothing more than a mere survivor.",
+  "points": 0,
+  "skills": [
+    { "level": 1, "name": "computer" },
+    { "level": 1, "name": "speech" }
+  ],
+      "items": {
+      "both": {
+        "entries": [
+          { "item": "tshirt", "variant": "generic_tshirt" },
+          { "item": "sweatshirt" },
+          { "item": "wristwatch" },
+          { "item": "jeans_ripped" },
+          { "item": "socks" },
+          { "item": "backpack" },
+          { "item": "sneakers" },
+          { "item": "selfie_stick" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "boxer_shorts" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "panties" }
+        ]
+      }
+    },
+    "age_lower": 16
+  },
+  {
+    "type": "profession",
+    "id": "frat",
+    "name": { "male": "Frat Boy", "female": "Sorority Girl" },
+    "description": "You were living the high life, spending your parents' money without a care in the world.  At one of your usual crazy parties, the guests became hungry for more than drugs and booze, but you still have a chance to use the last symbol of your luxurious life - your sports car - and get far away.",
+    "points": 2,
+    "proficiencies": [ "prof_driver" ],
+    "skills": [ { "level": 3, "name": "driving" }, { "level": 2, "name": "speech" } ],
+    "vehicle": "car_sports",
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "gold_watch" },
+          { "item": "fancy_sunglasses" },
+          { "item": "water_mineral" },
+          { "item": "money_strap_twenty" },
+          { "item": "cig" },
+          { "item": "mag_porn" },
+          { "group": "charged_ref_lighter" },
+          { "group": "charged_smart_phone" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "boxer_shorts" },
+          { "item": "pants", "variant": "pants_black" },
+          { "item": "dress_shoes" },
+          { "item": "polo_shirt", "variant": "generic_polo" },
+          { "item": "socks" },
+          { "item": "mag_dude" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "halter_top" },
+          { "item": "bra" },
+          { "item": "panties" },
+          { "item": "skirt" },
+          { "item": "heels" },
+          { "item": "stockings" },
+          { "item": "purse" },
+          { "item": "mag_glam" },
+          { "item": "bracelet_friendship" },
+          { "item": "opal_gold_ring" },
+          { "item": "opal_gold_earring" }
+        ]
+      }
+    },
+    "age_upper": 25
+  },
+  {
+    "type": "profession",
+    "id": "tailor",
+    "name": "Tailor",
+    "description": "Tailoring may not seem like the most useful skill when the world has ended.  Most people wouldn't expect a simple tailor to live very long.  This is your opportunity to prove them wrong.",
+    "points": 2,
+    "//": "Tailoring book and kit make an already decent class for careful folks much more powerful.",
+    "skills": [ { "level": 6, "name": "tailor" } ],
+    "proficiencies": [
+      "prof_fibers",
+      "prof_leatherworking_basic",
+      "prof_leatherworking",
+      "prof_furriery",
+      "prof_closures",
+      "prof_closures_waterproofing",
+      "prof_cobbling",
+      "prof_millinery"
+    ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "mbag" },
+          { "item": "polo_shirt", "variant": "generic_polo" },
+          { "item": "blazer" },
+          { "item": "socks" },
+          { "item": "dress_shoes" },
+          { "item": "knit_scarf" },
+          { "item": "textbook_tailor" },
+          { "item": "sf_watch" },
+          { "item": "hairpin" },
+          { "group": "charged_smart_phone" },
+          { "item": "tailors_kit", "ammo-item": "thread", "charges": 100 },
+          { "item": "pants", "variant": "pants_black" }
+        ]
+      },
+      "male": { "entries": [ { "item": "briefs" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "panties" } ] }
+    }
+  },
+  {
+    "type": "profession",
+    "id": "heli_pilot",
+    "name": "Helicopter Pilot",
+    "description": "You got your pilot's license and earned a living ferrying businessmen and tourists around.  The Cataclysm has grounded you for now, but the sky still calls to you…",
+    "points": 4,
+    "skills": [ { "level": 6, "name": "driving" }, { "level": 3, "name": "mechanics" }, { "level": 2, "name": "speech" } ],
+    "proficiencies": [ "prof_helicopter_pilot" ],
+    "items": {
+      "both": {
+        "entries": [
+          { "item": "pants_cargo" },
+          { "item": "socks" },
+          { "item": "polo_shirt", "variant": "generic_polo" },
+          { "item": "boots" },
+          { "item": "wristwatch" },
+          { "item": "fancy_sunglasses" },
+          { "group": "charged_smart_phone" },
+          { "item": "ear_plugs", "custom-flags": [ "no_auto_equip" ] }
+        ]
+      },
+      "male": { "entries": [ { "item": "boxer_shorts" } ] },
+      "female": { "entries": [ { "item": "bra" }, { "item": "boy_shorts" } ] }
+    }
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+  "type": "GENERIC",
+  "id": "library_card",
+  "category": "other",
+  "symbol": ",",
+  "color": "blue",
+  "name": { "str": "library card" },
+  "description": "A small, rectangular plastic card bearing the emblem of a local library.  Back in the old days, it granted access to the repositories of distinctive libraries, but now it is practically useless.",
+  "price": "0 cent",
+  "price_postapoc": "0 cent",
+  "material": [ "plastic" ],
+  "weight": "5 g",
+  "volume": "5 ml",
+  "longest_side": "84 mm",
+  "flags": [
+    "CREDIT_CARD_SHAPED",
+    "TRADER_AVOID"
+  ],
+  "to_hit": {
+    "grip": "bad",
+    "length": "hand",
+    "surface": "any",
+    "balance": "neutral"
+  },
+  "copy-from": "card_plastic_abstract"
+  },
+  {
+  "type": "GENERIC",
+  "id": "yt_silver",
+  "category": "other",
+  "symbol": "*",
+  "color": "white",
+  "name": { "str": "Silver Play Button plate" },
+  "description": "A sleek, framed silver plaque awarded for surpassing 100,000 subscribers on a popular video-sharing platform.",
+  "weight": "225 g",
+  "volume": "1500 ml",
+  "price": "1000 USD",
+  "price_postapoc": "20 USD",
+  "material": [ { "type": "steel", "portion": 94 },  { "type": "glass", "portion": 5 }, { "type": "silver", "portion": 1 } ]
+ }
+]

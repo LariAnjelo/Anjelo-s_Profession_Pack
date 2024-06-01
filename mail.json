@@ -1,0 +1,19 @@
+[
+  {
+    "id": "mail",
+    "type": "item_group",
+    "subtype": "distribution",
+    "entries": [
+      { "group": "greeting-cards_with_gifts", "prob": 10 },
+      { "item": "letter", "container-item": "envelope", "prob": 20 },
+      { "item": "postcard", "prob": 20 },
+      { "group": "magazines", "prob": 10 },
+      { "group": "newspaper_recent", "prob": 60 },
+      { "group": "brochures", "prob": 15 },
+      { "group": "pamphlets", "prob": 5 },
+      { "item": "library_card", "container-item": "envelope", "prob": 5 },
+      { "item": "flyer", "prob": 30, "count": [ 0, 2 ] },
+      { "item": "survnote", "prob": 3 }
+    ]
+  }
+]

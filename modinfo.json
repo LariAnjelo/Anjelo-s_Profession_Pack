@@ -1,0 +1,10 @@
+[
+  {
+    "type": "MOD_INFO",
+    "id": "professions",
+    "name": "Anjelos's Profession Pack",
+    "description": "Some new professions and even items for the basegame",
+    "category": "content",
+    "dependencies": [ "dda" ]
+  }
+]

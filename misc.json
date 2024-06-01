@@ -1,0 +1,47 @@
+[
+  {
+    "id": "office_paper",
+    "type": "item_group",
+    "subtype": "collection",
+    "//": "Random paper/data items. for filing cabinets or other office locations",
+    "items": [
+      { "group": "oa_discarded_news", "count": [ 2, 12 ], "prob": 20 },
+      { "group": "flask_liquor", "prob": 10 },
+      { "group": "elecsto_pcs", "count": [ 1, 2 ], "prob": 10 },
+      { "item": "file", "count": [ 1, 8 ], "prob": 50 },
+      { "group": "elecsto_stor", "count": [ 1, 2 ], "prob": 30 },
+      { "item": "office_holepunch", "prob": 30 },
+      { "item": "money_strap_twenty", "count": [ 1, 10 ], "prob": 20 },
+      { "item": "scorecard", "count": [ 1, 10 ], "prob": 10 },
+      { "item": "survnote", "prob": 10 },
+      { "item": "flyer", "count": [ 1, 10 ], "prob": 30 },
+      { "item": "character_sheet", "count": [ 1, 2 ], "prob": 5 },
+      { "item": "phonebook", "prob": 10 },
+      { "item": "notebook", "prob": 5 },
+      { "item": "notebook_leather", "prob": 1 },
+      { "item": "magic_8_ball", "prob": 5 },
+      { "item": "family_photo", "prob": 5 },
+      { "item": "coin_quarter", "prob": 5 },
+      { "item": "RPG_die", "prob": 5 },
+      { "item": "metal_RPG_die", "prob": 1 },
+      { "item": "memory_card_unread", "count": [ 1, 5 ], "prob": 30 }
+    ]
+  },
+  {
+    "type": "item_group",
+    "id": "cathedral_archives",
+    "subtype": "collection",
+    "entries": [
+      { "item": "book_binder", "prob": 90, "charges": [ 0, 90 ], "count": [ 1, 5 ] },
+      { "item": "file", "prob": 50, "count": [ 1, 15 ] },
+      { "item": "paper", "prob": 60, "count": [ 10, 125 ] },
+      { "item": "notebook_leather", "prob": 1 },
+      { "item": "book_pieces", "prob": 20 },
+      { "item": "candle", "prob": 3, "charges": 100 },
+      { "item": "holybook_bible1", "prob": 3 },
+      { "item": "candlestick", "prob": 2 },
+      { "item": "chalice", "prob": 1 },
+      { "item": "book_ruined", "prob": 1 }
+    ]
+  }
+ ]

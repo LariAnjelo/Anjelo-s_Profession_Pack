@@ -1,0 +1,144 @@
+[
+  {
+    "id": "notebook",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "notebook" },
+    "description": "A spiral-bound collection of lined pages used for writing or drawing stuff.",
+    "weight": "150 g",
+    "volume": "250 ml",
+    "price": "1 USD 50 cent",
+    "price_postapoc": "1 cent",
+    "material": [ "cardboard", "paper" ],
+    "symbol": "H",
+    "color": "blue"
+  },
+  {
+    "id": "notebook_leather",
+    "type": "GENERIC",
+    "category": "other",
+    "name": { "str": "leather-cover notebook" },
+    "description": "A professional-looking, leather-cover notebook, perfect for writing or drawing stuff with some real vintage style.  It has a special strap for storing a pen or pencil inside it.",
+    "weight": "300 g",
+    "volume": "500 ml",
+    "price": "3 USD 50 cent",
+    "price_postapoc": "2 cent",
+    "material": [ "leather", "paper" ],
+    "pocket_data": [
+      {
+        "//": "Pen or pencil strap",
+        "pocket_type": "CONTAINER",
+        "rigid": false,
+        "moves": 150,
+        "max_contains_volume": "40 ml",
+        "max_contains_weight": "10 g",
+        "max_item_length": "13 cm",
+        "item_restriction": [ "pen", "pencil" ]
+      }
+    ],
+    "symbol": "H",
+    "color": "brown"
+  },
+  {
+  "id": "selfie_stick",
+  "type": "GENERIC",
+  "category": "container",
+  "name": {
+    "str": "selfie stick (collapsed)"
+  },
+  "description": "A telescoping rod that securely holds a smartphone, enabling the user to take photos or videos from an extended distance.  Not very useful nowadays.",
+  "weight": "150 g",
+  "volume": "350 ml",
+  "longest_side": "19 cm",
+  "price": "10 USD",
+  "price_postapoc": "1 USD",
+  "flags": [
+      "CONDUCTIVE",
+      "FRAGILE_MELEE" 
+        ],
+  "material": [
+    "aluminum", "plastic"
+  ],
+    "qualities": [ [ "HAMMER", -3 ] ],
+    "melee_damage": {
+    "bash": 2
+  },
+  "to_hit": -1,
+  "symbol": "t",
+  "color": "light_gray",
+  "use_action": {
+      "type": "transform",
+      "menu_text": "Extend",
+      "msg": "You extend your selfie stick.  Say Cheese!",
+      "target": "c_stick"
+    },
+  "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "max_contains_volume": "100 ml",
+      "max_contains_weight": "230 g",
+      "max_item_length": "15 cm",
+      "moves": 100,
+      "watertight": false,
+      "rigid": true,
+      "transparent": true,
+      "item_restriction": [
+        "smart_phone",
+        "smart_phone_flashlight",
+        "smartphone_music"
+      ]
+     }
+    ]
+  },
+  {
+  "id": "c_stick",
+  "type": "GENERIC",
+  "category": "container",
+  "name": {
+    "str": "selfie stick (extended)"
+  },
+  "description": "A telescoping rod that securely holds a smartphone, enabling the user to take photos or videos from an extended distance.  Not very useful nowadays.  It is extended and ready for a selfie.",
+  "weight": "150 g",
+  "volume": "700 ml",
+  "longest_side": "70 cm",
+  "price": "10 USD",
+  "price_postapoc": "1 USD",
+  "flags": [ 
+      "TRADER_AVOID",
+      "CONDUCTIVE",
+      "FRAGILE_MELEE" 
+      ],
+  "material": [
+    "aluminum", "plastic"
+  ],
+    "qualities": [ [ "HAMMER", -3 ] ],
+    "melee_damage": {
+    "bash": 2
+  },
+  "symbol": "T",
+  "color": "light_gray",
+  "use_action": {
+      "type": "transform",
+      "menu_text": "Collapse",
+      "msg": "You collapse your selfie stick.",
+      "target": "selfie_stick"
+    },
+  "pocket_data": [
+    {
+      "pocket_type": "CONTAINER",
+      "max_contains_volume": "100 ml",
+      "max_contains_weight": "230 g",
+      "max_item_length": "15 cm",
+      "moves": 100,
+      "watertight": false,
+      "rigid": true,
+      "transparent": true,
+      "item_restriction": [
+        "smart_phone",
+        "smart_phone_flashlight",
+        "smartphone_music"
+      ]
+   }
+  ]
+ }
+]

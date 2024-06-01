@@ -1,0 +1,142 @@
+[
+  {
+    "id": "headphones",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str_sp": "set of headphones" },
+    "description": "A pair of high-quality, wired/wireless headphones, like those ones gamers have.  They have an internal battery and can be charged via USB.",
+    "flags": [ "PARTIAL_DEAF", "OVERSIZE", "BELTED", "ALLOWS_NATURAL_ATTACKS", "WATER_BREAK", "ELECTRONIC" ],
+    "price": "25 USD",
+    "price_postapoc": "2 USD 50 cent",
+    "material": [ { "type": "plastic", "portion": 75 }, { "type": "cotton", "portion": 25 } ],
+    "weight": "250 g",
+    "volume": "1 L",
+    "charges_per_use": 0,
+    "ammo": "battery",
+   "use_action": {
+      "ammo_scale": 0,
+      "type": "transform",
+      "menu_text": "Wear on neck",
+      "msg": "You wear your set ogf headphones on your neck.",
+      "target": "headphones_neck"
+    },
+    "warmth": 5,
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
+        "default_magazine": "light_plus_battery_cell"
+      }
+    ],
+    "armor": [ { "encumbrance": 4, "coverage": 95, "covers": [ "head" ], "specifically_covers": [ "head_ear_r", "head_ear_l" ] } ]
+  },
+  {
+    "id": "headphones_neck",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str_sp": "set of headphones (neck)" },
+    "description": "A set of high-quality wired/wireless headphones, like these ones that gamers wear.  These are hanging on your neck.",
+    "flags": [ "OVERSIZE", "BELTED", "ALLOWS_NATURAL_ATTACKS", "WATER_BREAK", "ELECTRONIC" ],
+    "price": "25 USD",
+    "price_postapoc": "2 USD 50 cent",
+    "material": [ { "type": "plastic", "portion": 75 }, { "type": "cotton", "portion": 25 } ],
+    "weight": "250 g",
+    "volume": "1 L",
+    "ammo": "battery",
+    "charges_per_use": 0,
+    "use_action": {
+      "ammo_scale": 0,
+      "type": "transform",
+      "menu_text": "Wear on head",
+      "msg": "You put the headphones on your head.",
+      "target": "headphones"
+    },
+    "warmth": 1,
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
+        "default_magazine": "light_plus_battery_cell"
+      }
+    ],
+    "armor": [ { "encumbrance": 7, "coverage": 50, "covers": [ "torso" ], "specifically_covers": [ "torso_neck" ] } ]
+  },
+  {
+    "id": "headphones_cat",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str_sp": "set of cat headphones" },
+    "description": "A pair of high-quality, wired/wireless headphones with cute cat ears, like those ones gamers have.  They have an internal battery and can be charged via USB.",
+    "flags": [ "PARTIAL_DEAF", "OVERSIZE", "BELTED", "ALLOWS_NATURAL_ATTACKS", "WATER_BREAK", "ELECTRONIC" ],
+    "price": "25 USD",
+    "price_postapoc": "2 USD 50 cent",
+    "material": [ { "type": "plastic", "portion": 75 }, { "type": "cotton", "portion": 25 } ],
+    "weight": "250 g",
+    "volume": "1 L",
+    "charges_per_use": 0,
+    "ammo": "battery",
+   "use_action": {
+      "ammo_scale": 0,
+      "type": "transform",
+      "menu_text": "Wear on neck",
+      "msg": "You wear your set of cat headphones on your neck.",
+      "target": "headphonescat_neck"
+    },
+    "warmth": 5,
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
+        "default_magazine": "light_plus_battery_cell"
+      }
+    ],
+    "armor": [ { "encumbrance": 4, "coverage": 95, "covers": [ "head" ], "specifically_covers": [ "head_ear_r", "head_ear_l" ] } ]
+  },
+  {
+    "id": "headphonescat_neck",
+    "type": "TOOL_ARMOR",
+    "category": "tools",
+    "symbol": "[",
+    "color": "blue",
+    "name": { "str_sp": "set of cat headphones (neck)" },
+    "description": "A set of high-quality wired/wireless headphones with cute cat ears, like these ones that gamers wear.  These are hanging on your neck.",
+    "flags": [ "OVERSIZE", "BELTED", "ALLOWS_NATURAL_ATTACKS", "WATER_BREAK", "ELECTRONIC" ],
+    "price": "25 USD",
+    "price_postapoc": "2 USD 50 cent",
+    "material": [ { "type": "plastic", "portion": 75 }, { "type": "cotton", "portion": 25 } ],
+    "weight": "250 g",
+    "volume": "1 L",
+    "ammo": "battery",
+    "charges_per_use": 0,
+    "use_action": {
+      "ammo_scale": 0,
+      "type": "transform",
+      "menu_text": "Wear on head",
+      "msg": "You put the cat headphones on your head.",
+      "target": "headphones"
+    },
+    "warmth": 1,
+    "material_thickness": 2,
+    "pocket_data": [
+      {
+        "pocket_type": "MAGAZINE_WELL",
+        "rigid": true,
+        "flag_restriction": [ "BATTERY_LIGHT", "BATTERY_ULTRA_LIGHT" ],
+        "default_magazine": "light_plus_battery_cell"
+      }
+    ],
+    "armor": [ { "encumbrance": 7, "coverage": 50, "covers": [ "torso" ], "specifically_covers": [ "torso_neck" ] } ]
+  }
+]
