@@ -523,6 +523,42 @@
     },
     "age_lower": 16
   },
+    },
+  {
+  "type": "profession",
+  "id": "furry",
+  "name": "Furry WebPerformer",
+  "description": "A dedicated performer and NSFW content creator in the furry fandom, you spent your days entertaining and engaging with your online community, with pictures, videos and other forms of engagement.  Now, no one in the world is going to check your OnlyFurries account now, but you still have your fursuit with you.",
+  "points": 1,
+  "skills": [
+    { "level": 1, "name": "computer" },
+    { "level": 1, "name": "speech" },
+   { "level": 2, "name": "tailor" }
+  ],
+    "proficiencies": [
+      "prof_furriery",
+      "prof_closures"
+    ],
+      "items": {
+      "both": {
+        "entries": [
+          { "item": "wolfsuit" },
+          { "item": "bondage_suit" }
+        ]
+      },
+      "male": {
+        "entries": [
+          { "item": "light_battery_cell", "charges": 100, "container-item": "masturbator" }
+        ]
+      },
+      "female": {
+        "entries": [
+          { "item": "light_battery_cell", "charges": 100, "container-item": "vibrator" }
+        ]
+      }
+    },
+    "age_lower": 18
+  },
   {
     "type": "profession",
     "id": "frat",
